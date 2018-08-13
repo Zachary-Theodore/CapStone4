@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="shopping.js"></script>
+</head>
+<h1>Shopping List</h1>
+<h2>Click a button to add that item to your list.</h2>
+<body>
+
+   
+    <button onclick="displayClick(0)">Milk $1.98</button>
+    <button onclick="displayClick(1)">Eggs $3.40</button>
+    <button onclick="displayClick(2)">Cereal $4.83</button>
+    <button onclick="displayClick(3)">Juice $2.99</button>
+    <button onclick="displayClick(4)">Butter $4.00</button>
+    <button onclick="displayClick(5)">Cheese $7.89</button>
+    <table>
+        <tr>
+            <th>Item:</th>
+            <th> </th>
+            <th> </th>
+            <th> </th>
+            <th>Price:</th>
+        </tr>
+    </table>
+    <button onclick="checkOut()">CheckOut</button>
+
+  <p id="recipt"></p>
+</body>
+</html>
